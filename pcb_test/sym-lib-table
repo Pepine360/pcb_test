@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TPSM861253") (type "KiCad") (uri "${KIPRJMOD}/libs/TPSM861253/2026-06-24_20-00-26.kicad_sym") (options "") (descr ""))
+	(lib (name "ISOW1432") (type "KiCad") (uri "${KIPRJMOD}/libs/ISOW1432/2026-06-24_21-54-54.kicad_sym") (options "") (descr ""))
+	(lib (name "IS21EF08G") (type "KiCad") (uri "${KIPRJMOD}/libs/IS21EF08G/2026-06-26_01-18-53.kicad_sym") (options "") (descr ""))
+	(lib (name "MX66LM1G") (type "KiCad") (uri "${KIPRJMOD}/libs/MX66LM1G/2026-06-27_21-50-09.kicad_sym") (options "") (descr ""))
+	(lib (name "BMM350") (type "KiCad") (uri "${KIPRJMOD}/libs/BMM350/2026-06-29_00-29-31.kicad_sym") (options "") (descr ""))
+	(lib (name "BMI323") (type "KiCad") (uri "${KIPRJMOD}/libs/BMI323/2026-07-08_20-16-09.kicad_sym") (options "") (descr ""))
+	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/libs/BMP581/2026-07-08_20-52-18.kicad_sym") (options "") (descr ""))
+)
