@@ -283,7 +283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -296,7 +296,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -305,8 +305,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.016 -0.254 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -337,7 +337,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -370,12 +370,61 @@
 					)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -383,7 +432,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1145,7 +1194,7 @@
 		)
 	)
 	(rectangle
-		(start 12.7 24.13)
+		(start 12.7 12.7)
 		(end 114.3 88.9)
 		(stroke
 			(width 0)
@@ -1177,40 +1226,16 @@
 		(uuid "909eb57d-6efb-4599-aba3-3d9af9df5009")
 	)
 	(junction
-		(at 73.66 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c639394-d311-4c4a-b015-87b637fc8c02")
-	)
-	(junction
 		(at 91.44 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19ad0041-092f-463e-b153-14943522a538")
 	)
 	(junction
-		(at 66.04 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3acdb014-e995-4f16-8f06-71ab5f96275e")
-	)
-	(junction
-		(at 72.39 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4988713f-ab91-4ff8-9c83-6b78642d7224")
-	)
-	(junction
 		(at 21.59 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5777b0b1-253b-45da-8461-8243dbc67ef9")
-	)
-	(junction
-		(at 80.01 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a061ff6-fc68-4bad-81ea-aaece13c6892")
 	)
 	(junction
 		(at 26.67 33.02)
@@ -1250,10 +1275,6 @@
 		(at 54.61 36.83)
 		(uuid "40e92ad5-068a-4a61-9be0-47eed5514447")
 	)
-	(no_connect
-		(at 39.37 49.53)
-		(uuid "dfb26043-c6a0-4c52-9498-29b6c2d03e5f")
-	)
 	(wire
 		(pts
 			(xy 31.75 31.75) (xy 31.75 33.02)
@@ -1273,6 +1294,16 @@
 			(type default)
 		)
 		(uuid "0818df1e-9041-4514-8215-de7befa5beaa")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 39.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099417bc-ebea-49a7-8d6a-27b244338a8a")
 	)
 	(wire
 		(pts
@@ -1393,16 +1424,6 @@
 			(type default)
 		)
 		(uuid "5f3315ad-84f6-461e-bf2b-fde39ad16ecd")
-	)
-	(wire
-		(pts
-			(xy 72.39 46.99) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607949ca-05b4-4661-aff4-e16db40f6756")
 	)
 	(wire
 		(pts
@@ -1636,16 +1657,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 73.66 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc8aeed-d43a-43c5-b296-c10d530ec6fa")
-	)
-	(wire
-		(pts
 			(xy 64.77 44.45) (xy 66.04 44.45)
 		)
 		(stroke
@@ -1775,6 +1786,30 @@
 		(uuid "4da630dd-d437-4599-aec2-98f71dc2c297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 78.1569 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RCC32_CLK_SRC"
+		(shape input)
+		(at 35.56 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f065e5a-9025-4045-8f8f-ac9865cff783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.093 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 82.55 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -2429,7 +2464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 53.848 90)
+			(at 82.804 51.054 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +2485,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 82.55 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 76.2 46.99 90)
 		(unit 1)
 		(body_style 1)
@@ -2509,7 +2544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 48.768 90)
+			(at 76.454 45.974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2565,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2717,7 +2752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 100.33 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -2751,7 +2786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.552 36.83 90)
+			(at 101.346 37.084 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2807,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3097,7 +3132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 88.9 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -3129,7 +3164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 56.388 90)
+			(at 89.154 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 88.9 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3573,7 +3608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 91.44 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -3607,7 +3642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.662 36.83 90)
+			(at 92.456 37.084 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 69.85 44.45 90)
 		(unit 1)
 		(body_style 1)
@@ -3767,7 +3802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 46.228 90)
+			(at 70.104 43.434 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +3823,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)

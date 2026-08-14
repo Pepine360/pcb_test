@@ -660,7 +660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -673,7 +673,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -682,8 +682,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -693,7 +693,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.016 -0.254 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -714,7 +714,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -747,12 +747,61 @@
 					)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -760,7 +809,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1538,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 24.13) (xy 48.26 24.13)
+			(xy 46.99 24.13) (xy 50.8 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 22.86) (xy 48.26 24.13)
+			(xy 50.8 22.86) (xy 50.8 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 53.34 31.75 90)
 		(unit 1)
 		(body_style 1)
@@ -2229,7 +2278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 33.528 90)
+			(at 53.594 30.734 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +2299,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 53.34 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2355,7 +2404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 58.42 29.21 90)
 		(unit 1)
 		(body_style 1)
@@ -2387,7 +2436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 30.988 90)
+			(at 58.674 28.194 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 58.42 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2592,7 +2641,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 48.26 22.86 0)
+		(at 50.8 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2603,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed25ed0c-1668-4026-8b86-fe5080d7a23b")
 		(property "Reference" "#PWR01"
-			(at 48.26 26.67 0)
+			(at 50.8 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,8 +2662,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 48.26 17.78 0)
+		(property "Value" "+5V_IN2"
+			(at 50.8 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2624,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 22.86 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 22.86 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 22.86 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

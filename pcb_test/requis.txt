@@ -1,0 +1,49 @@
+Requis pcb apprentissage : 
+	Kaptoors:	
+		- IMU 6 axes
+		- Barometre
+		- Magnetometre
+		- GPS
+		- Digital power monitor
+		- temperature board
+	
+	Communication:
+		- 2x CAN 
+		- RS-485
+		- Ethernet
+		- RF (915 MHz)
+		- USB
+	
+	Stockage:
+		- Carte SD
+		- OctoSPI
+		- eMMC
+		- eeprom
+
+	Power:
+		- 5V USB
+		- 3V3A
+		- 3V3D
+		- 12-24V in
+
+	MCU:
+		- ST (preferablement)
+		- NXP (autrement)
+
+	Debug:
+		- JTAG (externe)
+
+	General:
+		- Pas de BGA
+
+	Autre:
+		- Petit buzzer
+		- DEL RGB
+		- BCP de del de debug
+
+Notes générales:
+	Conception:
+		- Simuler tous les circuits de puissance
+		- Planifier des points de test pour tous les signaux
+		- Mettre beaucoup de res 0 ohm pour deconnecter les perifs durant le bringup
+		- Utiliser seulement des condos 0.1u proche des IC pour eviter la resonance.
