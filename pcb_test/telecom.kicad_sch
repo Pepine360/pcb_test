@@ -5,4 +5,15 @@
 	(uuid "c56edaf2-e837-45c5-aba5-5c58b2b300bc")
 	(paper "A4")
 	(lib_symbols)
+	(text "SI4464"
+		(exclude_from_sim no)
+		(at 107.9019 63.4843 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e14b8b5-8595-4453-8186-e03155346098")
+	)
 )

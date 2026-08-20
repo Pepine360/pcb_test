@@ -2701,78 +2701,6 @@
 		)
 		(uuid "ecc9e0a0-c9c3-42d2-9afc-7c7168395cf9")
 	)
-	(global_label "RGB_B_TIM1"
-		(shape input)
-		(at 30.48 245.11 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04e25849-b141-463f-ab21-558bdbb4be7e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 230.8763 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RGB_R_TIM1"
-		(shape input)
-		(at 20.32 245.11 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0906deb1-7ca2-4560-a630-5649a46e2b1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 230.8763 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RGB_G_TIM1"
-		(shape input)
-		(at 25.4 245.11 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "313ac251-9fd1-460d-880f-007a2dd0bf7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 230.8763 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "EEPROM_SCL"
 		(shape input)
 		(at 60.96 165.1 270)
@@ -4513,10 +4441,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6c0ee64-59db-475b-ba62-348a0ace82fd")
 		(property "Reference" "Y1"
-			(at 30.48 189.23 0)
+			(at 30.48 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4527,6 +4454,7 @@
 		)
 		(property "Value" "ABM8-16.000MHZ-7-1-U-T"
 			(at 30.48 191.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +4778,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 35.56)
+		(at 16.51 41.91)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4865,8 +4793,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "28fe0ca2-fc59-42d4-953e-28e16a16832a")
-		(property "Sheetname" "eMMC"
-			(at 16.51 34.8484 0)
+		(property "Sheetname" "eMMC (done)"
+			(at 16.51 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4877,7 +4805,7 @@
 			)
 		)
 		(property "Sheetfile" "stockage.kicad_sch"
-			(at 16.51 39.9546 0)
+			(at 16.51 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,7 +4824,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 25.4)
+		(at 16.51 68.58)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4911,8 +4839,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "2bd2632e-cb33-4499-889d-fee253f6a8d9")
-		(property "Sheetname" "communication"
-			(at 16.51 24.6884 0)
+		(property "Sheetname" "communication (done)"
+			(at 16.51 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4923,7 +4851,7 @@
 			)
 		)
 		(property "Sheetfile" "communication.kicad_sch"
-			(at 16.51 29.7946 0)
+			(at 16.51 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4942,7 +4870,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 66.04)
+		(at 16.51 95.25)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4958,7 +4886,7 @@
 		)
 		(uuid "5151f5c6-4c1a-46fa-bdb7-4da6987f6550")
 		(property "Sheetname" "connecteurs"
-			(at 16.51 65.3284 0)
+			(at 16.51 94.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,7 +4897,7 @@
 			)
 		)
 		(property "Sheetfile" "connecteurs.kicad_sch"
-			(at 16.51 70.4346 0)
+			(at 16.51 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4988,7 +4916,53 @@
 		)
 	)
 	(sheet
-		(at 16.51 74.93)
+		(at 16.51 86.36)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6683a0b2-1c27-4e1d-b83f-c5db0b6988a2")
+		(property "Sheetname" "RF"
+			(at 16.51 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "telecom.kicad_sch"
+			(at 16.51 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_test"
+				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 24.13)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5003,8 +4977,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "77eb13b2-07a2-4b54-ad29-1e532e187c9a")
-		(property "Sheetname" "octoSPI"
-			(at 16.51 74.2184 0)
+		(property "Sheetname" "octoSPI (done)"
+			(at 16.51 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5015,7 +4989,7 @@
 			)
 		)
 		(property "Sheetfile" "octospi.kicad_sch"
-			(at 16.51 79.3246 0)
+			(at 16.51 28.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5034,7 +5008,53 @@
 		)
 	)
 	(sheet
-		(at 16.51 45.72)
+		(at 16.51 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "847525c2-f1fe-4235-a916-d3fffd9a3478")
+		(property "Sheetname" "Ethernet"
+			(at 16.51 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 16.51 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_test"
+				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 50.8)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5049,8 +5069,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8bb3b249-0670-4039-ab3c-922a6b6ae76d")
-		(property "Sheetname" "capteurs"
-			(at 16.51 45.0084 0)
+		(property "Sheetname" "capteurs (done)"
+			(at 16.51 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5061,7 +5081,7 @@
 			)
 		)
 		(property "Sheetfile" "capteurs.kicad_sch"
-			(at 16.51 50.1146 0)
+			(at 16.51 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5075,6 +5095,52 @@
 			(project "pcb_test"
 				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 104.14)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0065054-2102-4282-b604-608b89274c22")
+		(property "Sheetname" "Buzzer"
+			(at 16.51 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 16.51 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_test"
+				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
+					(page "12")
 				)
 			)
 		)
@@ -5095,7 +5161,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d5574c25-212c-4bd9-beec-fcbd5ae28e66")
-		(property "Sheetname" "alimentation"
+		(property "Sheetname" "alimentation (done)"
 			(at 16.51 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5192,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 55.88)
+		(at 16.51 59.69)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5141,8 +5207,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d782ac50-8a87-45ef-a47c-b04d04d1f54f")
-		(property "Sheetname" "gps"
-			(at 16.51 55.1684 0)
+		(property "Sheetname" "gps (done)"
+			(at 16.51 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5153,7 +5219,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 16.51 60.2746 0)
+			(at 16.51 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5167,6 +5233,52 @@
 			(project "pcb_test"
 				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 33.02)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9bc2c32-1106-48b2-929e-afc7f1ba8b22")
+		(property "Sheetname" "SD card"
+			(at 16.51 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 16.51 37.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_test"
+				(path "/369fde0b-6a31-488a-9037-ea8dd8fac03b"
+					(page "10")
 				)
 			)
 		)

@@ -428,7 +428,7 @@
         "uuid": "369fde0b-6a31-488a-9037-ea8dd8fac03b"
       }
     ],
-    "used_designators": "Q1-2,C7,C50-53,R67-76,D4,#PWR116-117,#PWR122-135,U3,U15",
+    "used_designators": "U16-17,R77-88,#PWR130,#PWR133,#PWR136-151,TP72-76,C53-55",
     "variants": []
   },
   "sheets": [
@@ -438,23 +438,23 @@
     ],
     [
       "d5574c25-212c-4bd9-beec-fcbd5ae28e66",
-      "alimentation"
+      "alimentation (done)"
     ],
     [
       "2bd2632e-cb33-4499-889d-fee253f6a8d9",
-      "communication"
+      "communication (done)"
     ],
     [
       "28fe0ca2-fc59-42d4-953e-28e16a16832a",
-      "eMMC"
+      "eMMC (done)"
     ],
     [
       "8bb3b249-0670-4039-ab3c-922a6b6ae76d",
-      "capteurs"
+      "capteurs (done)"
     ],
     [
       "d782ac50-8a87-45ef-a47c-b04d04d1f54f",
-      "gps"
+      "gps (done)"
     ],
     [
       "5151f5c6-4c1a-46fa-bdb7-4da6987f6550",
@@ -462,7 +462,23 @@
     ],
     [
       "77eb13b2-07a2-4b54-ad29-1e532e187c9a",
-      "octoSPI"
+      "octoSPI (done)"
+    ],
+    [
+      "6683a0b2-1c27-4e1d-b83f-c5db0b6988a2",
+      "RF"
+    ],
+    [
+      "e9bc2c32-1106-48b2-929e-afc7f1ba8b22",
+      "SD card"
+    ],
+    [
+      "847525c2-f1fe-4235-a916-d3fffd9a3478",
+      "Ethernet"
+    ],
+    [
+      "b0065054-2102-4282-b604-608b89274c22",
+      "Buzzer"
     ]
   ],
   "text_variables": {},
