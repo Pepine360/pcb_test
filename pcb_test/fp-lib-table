@@ -8,4 +8,5 @@
 	(lib (name "BMI323") (type "KiCad") (uri "${KIPRJMOD}/libs/BMI323/footprints.pretty") (options "") (descr ""))
 	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/libs/BMP581/footprints.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/stuff/footprints.pretty") (options "") (descr ""))
+	(lib (name "ST_QFN40P350X120X50-17L") (type "Altium Designer") (uri "${KIPRJMOD}/libs/ST_QFN40P350X120X50-17L.PcbLib") (options "") (descr ""))
 )

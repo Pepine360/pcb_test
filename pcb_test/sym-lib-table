@@ -7,4 +7,5 @@
 	(lib (name "BMM350") (type "KiCad") (uri "${KIPRJMOD}/libs/BMM350/2026-06-29_00-29-31.kicad_sym") (options "") (descr ""))
 	(lib (name "BMI323") (type "KiCad") (uri "${KIPRJMOD}/libs/BMI323/2026-07-08_20-16-09.kicad_sym") (options "") (descr ""))
 	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/libs/BMP581/2026-07-08_20-52-18.kicad_sym") (options "") (descr ""))
+	(lib (name "stuff") (type "KiCad") (uri "${KIPRJMOD}/libs/stuff.kicad_sym") (options "") (descr ""))
 )

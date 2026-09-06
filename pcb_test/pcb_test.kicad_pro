@@ -294,6 +294,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -428,7 +429,7 @@
         "uuid": "369fde0b-6a31-488a-9037-ea8dd8fac03b"
       }
     ],
-    "used_designators": "U16-17,R77-88,#PWR130,#PWR133,#PWR136-151,TP72-76,C53-55",
+    "used_designators": "LS1,U16-21,J2-3,R59-61,R77-140,#PWR105,#PWR121,#PWR130,#PWR133,#PWR136-196,FB1,TP72-76,C10,C12,C29,C31,C33,C46,C53-66,C68,C71-84,C87-102,Q3-6,Y2",
     "variants": []
   },
   "sheets": [
@@ -465,20 +466,16 @@
       "octoSPI (done)"
     ],
     [
-      "6683a0b2-1c27-4e1d-b83f-c5db0b6988a2",
-      "RF"
-    ],
-    [
       "e9bc2c32-1106-48b2-929e-afc7f1ba8b22",
-      "SD card"
+      "SD card (done)"
     ],
     [
       "847525c2-f1fe-4235-a916-d3fffd9a3478",
-      "Ethernet"
+      "Ethernet (done)"
     ],
     [
       "b0065054-2102-4282-b604-608b89274c22",
-      "Buzzer"
+      "Buzzer (done)"
     ]
   ],
   "text_variables": {},
